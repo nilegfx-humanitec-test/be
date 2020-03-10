@@ -1,0 +1,12 @@
+{
+  "name": "be",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:nilegfx-humanitec-test/be.git",
+  "author": "<great.nile@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
