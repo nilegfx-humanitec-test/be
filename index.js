@@ -1,7 +1,7 @@
 const express = require('express');
 const cors = require('cors');
 
-const APP_PORT = process.env.APP_PORT || 5050;
+const BE_PORT = process.env.BE_PORT || 5050;
 
 express()
   .use(cors())
@@ -9,6 +9,6 @@ express()
   .get('/users', (req, res) =>
     res.json({ users: [{ name: 'Ahmed' }, { name: 'Ayoub' }] })
   )
-  .listen(APP_PORT, () => {
-    console.log(`http://localhost:${APP_PORT}`);
+  .listen(BE_PORT, () => {
+    console.log(`http://localhost:${BE_PORT}`);
   });
